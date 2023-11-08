@@ -1,29 +1,32 @@
 <template>
-  <Header />
-  <HomepageBanner />
-  <HomepageProject />
-  <HomepageCounter />
-  <HomepageBlog />
-  <Footer />
+<Header />
+<!--  <HomepageBanner /> -->
+<!--  <HomepageProject /> -->
+<!--  <HomepageCounter /> -->
+<!--  <HomepageBlog /> -->
+<Blog />
+<Footer />
 </template>
 
 <script>
 import Header from './components/Header.vue'
+// import HomepageBanner from './components/HomepageBanner.vue'
+// import HomepageProject from './components/HomepageProject.vue'
+// import HomepageCounter from './components/HomepageCounter.vue'
+// import HomepageBlog from './components/HomepageBlog.vue'
+import Blog from './components/Blog.vue'
 import Footer from './components/Footer.vue'
-import HomepageBanner from './components/HomepageBanner.vue'
-import HomepageProject from './components/HomepageProject.vue'
-import HomepageCounter from './components/HomepageCounter.vue'
-import HomepageBlog from './components/HomepageBlog.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Footer,
-    HomepageBanner,
-    HomepageProject,
-    HomepageCounter,
-    HomepageBlog
+    // HomepageBanner,
+    // HomepageProject,
+    // HomepageCounter,
+    // HomepageBlog
+    Blog,
+    Footer
   }
 }
 </script>

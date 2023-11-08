@@ -34,68 +34,72 @@
 </template>
 <script>
 export default {
-    name: 'VueProjectBlogData',
-    data() {
-        return {
-            blogPostData: [
-                {
-                    id: 1,
-                    src: require('../assets/BlogImage1.jpg'),
-                    alt: 'living room',
-                    title: 'Low Cost Latest Invented Interior Designing Ideas.',
-                    date: '22 December,2022', button: 'Living Design'
-                },
-                {
-                    id: 2,
-                    src: require('../assets/BlogImage2.jpg'),
-                    alt: 'kitchen',
-                    title: 'Let’s Get Solution For Building Construction Work',
-                    date: '26 December,2022', button: 'Kitchan design'
-                },
-                {
-                    id: 3,
-                    src: require('../assets/BlogImage3.jpg'),
-                    alt: 'kitchen',
-                    title: 'Best For Any Office & Business Interior Solution.',
-                    date: '25 December,2022', button: 'Interior design'
-                },
-                {
-                    id: 4,
-                    src: require('../assets/BlogImage4.jpg'),
-                    alt: 'kitchen',
-                    title: 'Let’s Get Solution For Building Construction Work',
-                    date: '26 December,2022', button: 'Kitchan Design'
-                },
-                {
-                    id: 5,
-                    src: require('../assets/BlogImage5.jpg'),
-                    alt: 'living room',
-                    title: 'Low Cost Latest Invented Interior Designing Ideas.',
-                    date: '22 December,2022', button: 'Living Design'
-                },
-                {
-                    id: 6,
-                    src: require('../assets/BlogImage1.jpg'),
-                    alt: 'kitchen',
-                    title: 'Best For Any Office & Business Interior Solution',
-                    date: '25 December,2022', button: 'Interior Design'
-                }
-            ]
-        };
-    },
-    mounted() {
+  name: 'VueProjectBlogData',
+  data () {
+    return {
+      blogPostData: [
+        {
+          id: 1,
+          src: require('../assets/BlogImage_1.jpg'),
+          alt: 'living room',
+          title: 'Low Cost Latest Invented Interior Designing Ideas.',
+          date: '22 December,2022',
+          button: 'Living Design'
+        },
+        {
+          id: 2,
+          src: require('../assets/BlogImage_2.jpg'),
+          alt: 'kitchen',
+          title: 'Let’s Get Solution For Building Construction Work',
+          date: '26 December,2022',
+          button: 'Kitchan design'
+        },
+        {
+          id: 3,
+          src: require('../assets/BlogImage_3.jpg'),
+          alt: 'kitchen',
+          title: 'Best For Any Office & Business Interior Solution.',
+          date: '25 December,2022',
+          button: 'Interior design'
+        },
+        {
+          id: 4,
+          src: require('../assets/BlogImage_4.jpg'),
+          alt: 'kitchen',
+          title: 'Let’s Get Solution For Building Construction Work',
+          date: '26 December,2022',
+          button: 'Kitchan Design'
+        },
+        {
+          id: 5,
+          src: require('../assets/BlogImage_5.jpg'),
+          alt: 'living room',
+          title: 'Low Cost Latest Invented Interior Designing Ideas.',
+          date: '22 December,2022',
+          button: 'Living Design'
+        },
+        {
+          id: 6,
+          src: require('../assets/BlogImage_1.jpg'),
+          alt: 'kitchen',
+          title: 'Best For Any Office & Business Interior Solution',
+          date: '25 December,2022',
+          button: 'Interior Design'
+        }
+      ]
+    }
+  },
+  mounted () {
 
-    },
-    methods() {
+  },
+  methods () {
 
-    },
-};
+  }
+}
 </script>
 <style lang="scss" scoped>
 .blog {
     margin-top: 0px;
-
-
 
     &__header {
         margin-bottom: 30px;
@@ -105,7 +109,6 @@ export default {
         font-style: normal;
         font-weight: 400;
         line-height: 125%;
-        /* 62.5px */
         letter-spacing: 1px;
     }
 
@@ -126,6 +129,8 @@ export default {
 
         &_img {
             margin-bottom: 21px;
+            border-top-right-radius: 15%;
+            border-top-left-radius: 15%;
         }
 
         &_tag {
@@ -159,7 +164,6 @@ export default {
             font-style: normal;
             font-weight: 400;
             line-height: 125%;
-            /* 31.25px */
             letter-spacing: 0.5px;
             margin-bottom: 30px;
         }
@@ -184,7 +188,6 @@ export default {
                 font-style: normal;
                 font-weight: 400;
                 line-height: 150%;
-                /* 24px */
                 letter-spacing: 0.16px;
                 text-transform: capitalize;
             }
@@ -204,37 +207,37 @@ export default {
             fill: #fff;
         }
     }
-}
-
-.articles__pagination {
-    padding-top: 19px;
-    padding-bottom: 200px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-
-    &-item {
+    &__posts-pagination {
+        margin-top: 51px;
+        margin-bottom: 200px;
         display: flex;
+        flex-direction: row;
+        gap: 20px;
         justify-content: center;
         align-items: center;
-        width: 53px;
-        height: 53px;
-        border: 1px solid #cda274;
-        border-radius: 50%;
-        color: #292f36;
-        font-family: Jost;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 150%;
-        text-transform: capitalize;
 
-        &:first-child {
-            background-color: #f4f0ec;
-            border: none;
+        &-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 53px;
+            height: 53px;
+            border: 1px solid #cda274;
+            border-radius: 50%;
+            color: #292f36;
+            font-family: Jost;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%;
+            text-transform: capitalize;
+
+            &:first-child {
+                background-color: #f4f0ec;
+                border: none;
+            }
         }
     }
 }
+
 </style>
