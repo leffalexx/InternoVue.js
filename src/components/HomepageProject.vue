@@ -10,7 +10,7 @@
         </p>
         <div class="project__items">
             <div class="project__item">
-                <img src="../assets/KitchanImage_1.jpg" alt="photo" class="project__item_img">
+                <img src="../assets/KitchanImage_1.jpg" alt="photo" class="project__item_img top-right">
                 <div class="project__item_content">
                     <div class="project__item_content-text">
                         <p class="project__item_content-title">Modern Kitchan</p>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="project__item">
-                <img src="../assets/KitchanImage_2.jpg" alt="photo" class="project__item_img">
+                <img src="../assets/KitchanImage_2.jpg" alt="photo" class="project__item_img top-left">
                 <div class="project__item_content">
                     <div class="project__item_content-text">
                         <p class="project__item_content-title">Modern Kitchan</p>
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="project__item">
-                <img src="../assets/KitchanImage_3.jpg" alt="photo" class="project__item_img">
+                <img src="../assets/KitchanImage_3.jpg" alt="photo" class="project__item_img bottom-right">
                 <div class="project__item_content">
                     <div class="project__item_content-text">
                         <p class="project__item_content-title">Modern Kitchan</p>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="project__item">
-                <img src="../assets/KitchanImage_4.jpg" alt="photo" class="project__item_img">
+                <img src="../assets/KitchanImage_4.jpg" alt="photo" class="project__item_img bottom-left">
                 <div class="project__item_content">
                     <div class="project__item_content-text">
                         <p class="project__item_content-title">Modern Kitchan</p>
@@ -161,5 +161,20 @@ export default {
             }
         }
     }
+}
+.top-right {
+  border-top-right-radius: 15%;
+}
+
+.top-left {
+  border-top-left-radius: 15%;
+}
+
+.bottom-right {
+  border-bottom-right-radius: 15%;
+}
+
+.bottom-left {
+  border-bottom-left-radius: 15%;
 }
 </style>
