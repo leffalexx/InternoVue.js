@@ -3,7 +3,7 @@
         <h2 class="blog-post__title">Latest Post</h2>
         <div class="blog-post__latest-post">
             <div class="blog-post__latest-post-subbox">
-                <img class="blog-post__latest-post-image" src="../assets/BlogImage_3.jpg" alt="kitchen">
+                <img class="blog-post__latest-post-image" src="../assets/LatestPostImage.jpg" alt="kitchen">
                 <article class="blog-post__latest-post-text">
                     <h3 class="blog-post__latest-post-head">Low Cost Latest Invented Interior Designing Ideas</h3>
                     <p class="blog-post__latest-post-prgth blog-post__latest-post-prgth_1">Lorem ipsum dolor sit
@@ -32,22 +32,19 @@
 
 <script>
 export default {
-    name: 'VueProjectBlogPost',
+  name: 'VueProjectBlogPost',
+  data () {
+    return {
 
-    data() {
-        return {
+    }
+  },
+  mounted () {
 
-        };
-    },
+  },
+  methods: {
 
-    mounted() {
-
-    },
-
-    methods: {
-
-    },
-};
+  }
+}
 </script>
 
 <style lang="scss" scoped>

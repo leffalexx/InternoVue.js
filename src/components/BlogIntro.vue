@@ -12,28 +12,25 @@
 
 <script>
 export default {
-    name: 'VueProjectBlogIntro',
+  name: 'VueProjectBlogIntro',
+  data () {
+    return {
 
-    data() {
-        return {
+    }
+  },
+  mounted () {
 
-        };
-    },
+  },
+  methods: {
 
-    mounted() {
-
-    },
-
-    methods: {
-
-    },
-};
+  }
+}
 </script>
 
 <style lang="scss" scoped>
 .intro {
     margin-top: 45px;
-    background-image: url("../assets/blog_intro-picture.png");
+    background-image: url("../assets/BlogMainImage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
