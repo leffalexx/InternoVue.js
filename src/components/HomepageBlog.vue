@@ -130,6 +130,8 @@ export default {
 
         &_img {
             margin-bottom: 21px;
+            border-top-right-radius: 15%;
+            border-top-left-radius: 15%;
         }
 
         &_tag {
