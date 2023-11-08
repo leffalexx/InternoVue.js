@@ -4,7 +4,8 @@
 <!--  <HomepageProject /> -->
 <!--  <HomepageCounter /> -->
 <!--  <HomepageBlog /> -->
-<Blog />
+<!--  <Blog /> -->
+<BlogDetails />
 <Footer />
 </template>
 
@@ -14,8 +15,9 @@ import Header from './components/Header.vue'
 // import HomepageProject from './components/HomepageProject.vue'
 // import HomepageCounter from './components/HomepageCounter.vue'
 // import HomepageBlog from './components/HomepageBlog.vue'
-import Blog from './components/Blog.vue'
+// import Blog from './components/Blog.vue'
 import Footer from './components/Footer.vue'
+import BlogDetails from './components/BlogDetails.vue'
 
 export default {
   name: 'App',
@@ -25,8 +27,9 @@ export default {
     // HomepageProject,
     // HomepageCounter,
     // HomepageBlog
-    Blog,
-    Footer
+    // Blog,
+    Footer,
+    BlogDetails
   }
 }
 </script>

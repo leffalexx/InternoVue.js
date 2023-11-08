@@ -4,29 +4,26 @@
 </template>
 
 <script>
-import BlogDetailsIntro from './BlogDetailsIntro.vue';
-import BlogDetailsBox from './BlogDetailsBox.vue';
+import BlogDetailsIntro from './BlogDetailsIntro.vue'
+import BlogDetailsBox from './BlogDetailsBox.vue'
 export default {
-    name: 'VueProjectBlogDetails',
-    components: {
-        BlogDetailsIntro,
-        BlogDetailsBox
-    },
+  name: 'VueProjectBlogDetails',
+  components: {
+    BlogDetailsIntro,
+    BlogDetailsBox
+  },
+  data () {
+    return {
 
-    data() {
-        return {
+    }
+  },
+  mounted () {
 
-        };
-    },
+  },
+  methods: {
 
-    mounted() {
-
-    },
-
-    methods: {
-
-    },
-};
+  }
+}
 </script>
 
 <style lang="scss" scoped></style>

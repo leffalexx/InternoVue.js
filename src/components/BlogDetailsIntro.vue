@@ -6,22 +6,19 @@
 
 <script>
 export default {
-    name: 'VueProjectBlogDetailsIntro',
+  name: 'VueProjectBlogDetailsIntro',
+  data () {
+    return {
 
-    data() {
-        return {
+    }
+  },
+  mounted () {
 
-        };
-    },
+  },
+  methods: {
 
-    mounted() {
-
-    },
-
-    methods: {
-
-    },
-};
+  }
+}
 </script>
 
 <style lang="scss" scoped></style>
