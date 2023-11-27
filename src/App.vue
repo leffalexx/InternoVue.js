@@ -3,7 +3,8 @@
 <!--  <Homepage /> -->
 <!--  <BlogDetails /> -->
 <!--  <BlogMain /> -->
-<Project />
+<!--  <Project /> -->
+<ProjectDetails />
 <Footer />
 </template>
 
@@ -12,7 +13,8 @@ import Header from './components/Header.vue'
 // import Homepage from './components/Homepage.vue'
 // import BlogDetails from './components/BlogDetails.vue'
 // import BlogMain from './components/BlogMain.vue'
-import Project from './components/Project.vue'
+// import Project from './components/Project.vue'
+import ProjectDetails from './components/ProjectDetails.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -22,7 +24,8 @@ export default {
     // Homepage,
     // BlogDetails,
     // BlogMain,
-    Project,
+    // Project,
+    ProjectDetails,
     Footer
 
   }
