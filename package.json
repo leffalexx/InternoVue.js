@@ -12,6 +12,7 @@
     "vue": "^3.2.13",
     "vue-carousel": "^0.18.0",
     "vue-concise-slider": "^4.2.5",
+    "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },
   "devDependencies": {

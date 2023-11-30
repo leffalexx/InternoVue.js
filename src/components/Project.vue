@@ -187,10 +187,7 @@ export default {
 <style lang="scss" scoped>
 .intro {
   margin-top: 45px;
-  // background-image: url(../assets/project_intro-picture.png);
   background: url(../assets/ProjectMainImage.jpg), lightgray 50% / cover no-repeat;
-  // background-size: cover;
-  // background-repeat: no-repeat;
   display: flex;
   justify-content: center;
 
@@ -223,7 +220,6 @@ export default {
 .project__buttons {
   display: flex;
   width: 880px;
-  // flex-direction: column;
   align-items: center;
   gap: 10px;
   justify-content: space-between;
@@ -233,10 +229,6 @@ export default {
 }
 
 .project__cards {
-  // display: grid;
-  // grid-template-columns: repeat(2, 1fr);
-  // column-gap: 30px;
-  // row-gap: 36px;
   height: 3260px;
   display: flex;
   flex-direction: column;

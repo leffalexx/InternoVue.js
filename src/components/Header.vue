@@ -1,14 +1,14 @@
 <template>
     <header class="header center">
-        <div class="logo">
+        <nav class="logo">
             <img src="../assets/logo.png" alt="logo" class="logo__img">
-            <a href="index.html" class="logo__text">Interno</a>
-        </div>
-        <div class="menu">
-            <a href="index.html" class="menu__link">Home</a>
-            <a href="#" class="menu__link">Project</a>
-            <a href="pages/blog.html" class="menu__link">Blog</a>
-        </div>
+            <router-link to="/" class="logo__text">Interno</router-link>
+        </nav>
+        <nav class="menu">
+            <router-link to="/" class="menu__home">Home</router-link>
+            <router-link to="/project" class="menu__project">Project</router-link>
+            <router-link to="/blog" class="menu__blog">Blog</router-link>
+        </nav>
     </header>
 </template>
 <script>

@@ -3,7 +3,7 @@
         <div class="footer__main">
             <nav class="logo">
                 <img src="../assets/logo.png" alt="Logo" class="logo__img">
-                <a href="#" class="logo__text">Interno</a>
+                <router-link to="/" class="logo__text">Interno</router-link>
             </nav>
             <p class="footer__main_text">It is a long established fact that a reader will be distracted lookings.</p>
             <div class="footer__main_links">
@@ -26,15 +26,15 @@
             <p class="footer__pages_title">
                 Pages
             </p>
-            <a href="./index.html" class="footer__pages_subtitle">
+            <router-link to="/" class="footer__pages_subtitle">
                 Home
-            </a>
-            <a href="#" class="footer__pages_subtitle">
+            </router-link>
+            <router-link to="/project" class="footer__pages_subtitle">
                 Project
-            </a>
-            <a href="./pages/blog.html" class="footer__pages_subtitle">
+            </router-link>
+            <router-link to="/blog" class="footer__pages_subtitle">
                 Blog
-            </a>
+            </router-link>
         </div>
         <div class="footer__empty"></div>
         <div class="footer__contact">
